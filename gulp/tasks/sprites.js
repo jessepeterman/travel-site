@@ -5,6 +5,7 @@ var del = require('del');
 
 var config = {
   mode: {
+    transform: [],
     css: {
         sprite: 'sprite',
       render: {
