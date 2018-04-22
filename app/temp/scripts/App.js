@@ -9908,8 +9908,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var mobileMenu = new _MobileMenu2.default();
 // var revealOnScroll = new RevealOnScroll();
 //
-// new RevealOnScroll($(".testimonial"), "80%");
-// new RevealOnScroll($(".feature-item"), "85%");
+new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "80%");
+new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 
 /***/ }),
 /* 2 */
