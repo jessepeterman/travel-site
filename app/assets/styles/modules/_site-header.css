@@ -16,7 +16,6 @@
 
     &--dark {
       background-color: rgba(23, 51, 72, .85);
-      transform: scale(.60) ease-out;
     }
 
   }
@@ -34,11 +33,18 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%) scale(.8);
+    transition: transform .3s ease-out;
     transform-origin: 50% 0;
     @mixin atMedium {
       left: auto;
       transform: translateX(0);
+
+      .site-header--dark & {
+        transform: scale(.60);
+
+      }
     }
+    
     background-color: $mainBlue;
     padding: 25px 36px;
   }
