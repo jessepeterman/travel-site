@@ -1,5 +1,5 @@
 .site-header {
-  padding: 10px 0;
+  padding: 0px 0px;
   position: absolute;
   width: 100%;
   z-index: 2;
@@ -12,9 +12,11 @@
   @mixin atMedium{
     position: fixed;
     background-color: rgba($mainBlue, .3);
+    /* transform: scale(.60) ease-out; */
 
     &--dark {
       background-color: rgba(23, 51, 72, .85);
+      transform: scale(.60) ease-out;
     }
 
   }
@@ -23,6 +25,7 @@
 
     @mixin atMedium{
       float: right;
+      padding: 10px 0;
     }
   }
 
