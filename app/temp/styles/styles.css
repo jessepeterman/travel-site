@@ -993,11 +993,11 @@ a {
 /* Do not edit modules/_sprite directly, edit the gulp/template/sprite file instead */
 
 .icon {
-      background-image:url('/assets/images/sprites/sprite-cbdfe7ac.svg');
+      background-image:url('../../assets/images/sprites/sprite-cbdfe7ac.svg');
     }
 
 .no-svg .icon {
-        background-image:url('/assets/images/sprites/sprite-cbdfe7ac.png');
+        background-image:url('../../assets/images/sprites/sprite-cbdfe7ac.png');
       }
 
 .icon--clear-view-escapes {
