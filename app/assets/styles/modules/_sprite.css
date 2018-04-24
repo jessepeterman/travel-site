@@ -2,6 +2,7 @@
 
     .icon {
       background-image:url('/assets/images/sprites/sprite-d675eadb.svg');
+      margin-right: 10px;
     }
 
   .icon--clear-view-escapes {
