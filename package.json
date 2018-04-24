@@ -8,6 +8,7 @@
   "dependencies": {
     "jquery": "^2.2.4",
     "jquery-smooth-scroll": "^2.2.0",
+    "lazysizes": "^4.0.2",
     "npm": "^5.8.0",
     "waypoints": "^4.0.1",
     "webpack": "^3.8.1"
