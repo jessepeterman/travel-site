@@ -513,6 +513,48 @@ a {
   }
 }
 
+.hero {
+  display: none;
+}
+
+@media (min-width: 1380px){
+
+  .hero {
+    display: block
+  }
+}
+
+.hero-medium {
+  display: none;
+
+}
+
+@media (min-width: 991px) and (max-width: 1380px){
+
+  .hero-medium {
+    display: block
+  }
+}
+
+.hero-small {
+  display: none;
+
+}
+
+@media (min-width: 641px) and (max-width: 990px){
+
+  .hero-small {
+    display: block
+  }
+}
+
+@media (min-width: 640px) {
+
+  .hero-smaller {
+    display: none
+  }
+}
+
 .btn {
   background-color: #2f4472;
   color: #FFF;
