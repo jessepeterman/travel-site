@@ -445,6 +445,7 @@ a {
 .large-hero {
   border-bottom: 10px solid #2f4472;
   position: relative;
+  padding-bottom: 0;
 }
 
 .large-hero__image {
@@ -541,11 +542,17 @@ a {
 
 }
 
-@media (min-width: 641px) and (max-width: 990px){
+@media (min-width: 640px) and (max-width: 990px){
 
   .hero-small {
     display: block
   }
+}
+
+.hero-smaller {
+  /* height: 100%; */
+  background-size: cover;
+
 }
 
 @media (min-width: 640px) {
@@ -553,6 +560,10 @@ a {
   .hero-smaller {
     display: none
   }
+}
+
+img {
+  display: block;
 }
 
 .btn {

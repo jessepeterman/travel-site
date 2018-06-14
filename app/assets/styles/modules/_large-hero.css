@@ -1,6 +1,7 @@
 .large-hero {
   border-bottom: 10px solid $mainBlue;
   position: relative;
+  padding-bottom: 0;
 
   &__image {
     display: block;
@@ -76,7 +77,7 @@
 
 .hero-small {
   display: none;
-  @media (min-width: 641px) and (max-width: 990px){
+  @media (min-width: 640px) and (max-width: 990px){
     display: block;
   }
 
@@ -84,10 +85,14 @@
 
 
 .hero-smaller {
-
+  /* height: 100%; */
+  background-size: cover;
   @media (min-width: 640px) {
     display: none;
   }
 
 }
 
+ img {
+  display: block;
+}
